@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/create_edt"
+        android:hint="enter new todo"
+        android:layout_marginVertical="8dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/create_btn"
+        android:text="Save"
+        android:layout_marginVertical="8dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/todo_id_text"
+        android:hint="enter todo id"
+        android:layout_marginVertical="8dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/delete_btn"
+        android:text="Delete"
+        android:layout_marginVertical="8dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/modify_btn"
+        android:text="Modify"
+        android:layout_marginVertical="8dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/update_edt"
+        android:hint="Update Todo"
+        android:layout_marginVertical="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/retrieve_txt"
+        android:text="data inside database is here"
+        android:textSize="22sp"
+        android:layout_marginVertical="8dp"/>
+
+</LinearLayout>
